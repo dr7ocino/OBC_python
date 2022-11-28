@@ -22,7 +22,7 @@ class Vehiculo :
         return 'Color {}, ruedas {}, puertas {}'.format(self.color, self.ruedas, self.puertas)
 class Coche(Vehiculo):
     def __init__(self, velocidad, cilindrada):
-        self.Velocidad = velocidad
+        self.velocidad = velocidad
         self.cilindrada = cilindrada
     def __str__(self):
         return 'Color: {}, ruedas: {}, puertas: {}, velocidad: {}, cilindrada: {}'.format(self.color, self.ruedas, self.puertas, self.velocidad, self.cilindrada)

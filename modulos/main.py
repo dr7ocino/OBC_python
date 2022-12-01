@@ -5,5 +5,6 @@ def main():
     resta=operaciones.resta()
     multi=operaciones.multiplicacion()
     div=operaciones.division()
+    print(suma)
 if __name__ == '__main__':
     main()

@@ -1,11 +1,10 @@
 import pickle #serializamos datos en archivos .bin
-
 """
 la serializacion es muy util para guardar estados de un objeto
 sin necesidad de usar bases de datos
 """
-lista=['item','linea2','item3']
 
+lista=['item','linea2','item3']
 
 def escribe(fichero, datos):
     f=open(fichero,'a')#usamos la letra por append
@@ -35,6 +34,4 @@ f = open('datos.txt','wb')
 pickle.dump(j1, f)
 f.close()
         
-
-
 escribe('mifichero.txt',lista)

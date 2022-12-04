@@ -5,14 +5,14 @@ class Archivos:
     
     def __init__(self,path):
         self.path=path
-        self.ESCRITURA='r'
-        self.LECTURA='a'
+        self.ESCRITURA='a'
+        self.LECTURA='r'
     
     def lectura(self):
         f=open(self.path, self.LECTURA)
         data=f.readlines()
         f.close()
-        return f 
+        return data 
         
     def escritura():
     
@@ -20,10 +20,10 @@ class Archivos:
 
 
 def main():
-    path = r"C:\\Users\\dr7ocino\\Downloads\\map.txt"
+    path = "/etc/passwd"
     data=Archivos(path)
-    data.lectura()
-    for read in data:
+    datos=data.lectura()
+    for read in datos:
         print (read)
 
 if __name__ == '__main__':

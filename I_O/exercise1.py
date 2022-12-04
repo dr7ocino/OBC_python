@@ -28,7 +28,8 @@ class Archivos:
 
 def main():
     path = "/etc/passwd"
-    data=Archivos(path)
+    name_file='test.txt'
+    data=Archivos(path=path,file_name=name_file)
     datos=data.lectura()
     for read in datos:
         print (read)

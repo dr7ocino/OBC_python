@@ -1,0 +1,21 @@
+import tkinter
+window=tkinter.Tk()
+
+#label_saludo=tkinter.Label(window, text='Hola!', bg='yellow', fg='blue')
+#label_saludo.pack(fill='both',side='left')
+#label_adios=tkinter.Label(window, text='Hola!', bg='red', fg='blue')
+#label_adios.pack(fill='both', side='left')
+
+label_1=tkinter.Label(window, text='label 1', bg='yellow', fg='blue')
+label_2=tkinter.Label(window, text='label 2', bg='green', fg='blue')
+label_3=tkinter.Label(window, text='label 3', bg='purple', fg='blue')
+label_4=tkinter.Label(window, text='label 4', bg='red', fg='blue')
+label_5=tkinter.Label(window, text='label 5', bg='yellow', fg='blue')
+label_6=tkinter.Label(window, text='label 6', bg='green', fg='blue')
+label_1.pack(ipadx=15, ipady=15,fill='x')
+label_2.pack(ipadx=15, ipady=15,fill='x')
+label_3.pack(ipadx=15, ipady=15,fill='x')
+label_4.pack(ipadx=15, ipady=15, fill='x',side='left')
+label_5.pack(ipadx=15, ipady=15, fill='x',side='left')
+label_6.pack(ipadx=15, ipady=15, fill='x',side='left')
+window.mainloop()
